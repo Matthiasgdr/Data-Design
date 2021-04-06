@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CryptoSquare from "./components/CryptoSquare";
+import cryptos from "./data/crypto.json";
 
 function App() {
+  const cryptoKeys = Object.keys(cryptos);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="container">
+        {cryptoKeys.map((crypto) => (
+          <CryptoSquare key={cryptos[crypto].sign} crypto={cryptos[crypto]} />
+        ))}
+      </div>
     </div>
   );
 }

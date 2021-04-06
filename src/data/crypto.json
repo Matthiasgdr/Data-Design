@@ -1,0 +1,47 @@
+{
+  "bitcoin": {
+    "title": "Bitcoin",
+    "sign": "BTC",
+    "description": "The original cryptocurrency",
+    "colors": {
+      "background": "#E83D36",
+      "border": "#83120E"
+    }
+  },
+  "litecoin": {
+    "title": "Litecoin",
+    "sign": "LTC",
+    "description": "The best cryptocurrency for transaction speed",
+    "colors": {
+      "background": "#7A59E3",
+      "border": "#3D12C6"
+    }
+  },
+  "ripple": {
+    "title": "Ripple",
+    "sign": "XRP",
+    "description": "Lowest cost per transaction",
+    "colors": {
+      "background": "#E8883E",
+      "border": "#C03D07"
+    }
+  },
+  "ethereum": {
+    "title": "Ethereum",
+    "sign": "ETH",
+    "description": "The cryptocurrency of the 'world computer'",
+    "colors": {
+      "background": "#398075",
+      "border": "#155049"
+    }
+  },
+  "dogecoin": {
+    "title": "DogeCoin",
+    "sign": "DOGE",
+    "description": "The cryptocurrency that started as a meme",
+    "colors": {
+      "background": "#34A0AE",
+      "border": "#C8EDF2"
+    }
+  }
+}
