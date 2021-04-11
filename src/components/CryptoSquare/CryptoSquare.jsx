@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-const CryptoSquare = ({ crypto }) => {
+const CryptoSquare = ({ crypto, selectCrypto }) => {
+  const [initialPos, setInitialPos] = useState();
   const [PosX, setPosX] = useState(
     Math.floor(Math.random() * (window.innerWidth - 310))
   );
@@ -9,48 +10,35 @@ const CryptoSquare = ({ crypto }) => {
   );
 
   const [cursorStart, setCursorStart] = useState();
-
   const [isDragging, setIsDragging] = useState(false);
-  //   const [vector, setVector] = useState({ first: 0, second: 0 });
 
   const onMouseDown = (e) => {
     setIsDragging(true);
+    setInitialPos({ PosX, PosY });
     setCursorStart({ x: e.pageX, y: e.pageY });
-    // setVector((vector) => {
-    //   return {
-    //     first: { x: e.pageX, y: e.pageY },
-    //     second: { x: e.pageX, y: e.pageY },
-    //   };
-    // });
   };
 
   const onMouseMove = (e) => {
-    if (isDragging) {
+    if (isDragging && cursorStart) {
       setCursorStart({ x: e.pageX, y: e.pageY });
       setPosX((prevPosX) => prevPosX + (e.pageX - cursorStart.x));
       setPosY((prevPosY) => prevPosY + (e.pageY - cursorStart.y));
-      //   setVector((vector) => {
-      //     return {
-      //       first: { x: vector.first.x, y: vector.first.y },
-      //       second: { x: e.pageX, y: e.pageY },
-      //     };
-      //   });
     }
   };
 
-  const onMouseUp = () => {
+  const onMouseUp = (e) => {
     setIsDragging(false);
-    // startThrow();
   };
 
-  //   const startThrow = () => {
-  //     const moveX = (vector.first.x - vector.second.x) / 2;
-  //     const moveY = (vector.first.y - vector.second.y) / 2;
-  // 	requestAnimationFrame(loop)
-  //   };
+  const onClick = () => {
+    if (initialPos.PosX === PosX && initialPos.PosY === PosY) {
+      selectCrypto(crypto);
+    }
+  };
 
   return (
     <div
+      onClick={onClick}
       onMouseDown={onMouseDown}
       onMouseMove={onMouseMove}
       onMouseUp={onMouseUp}
