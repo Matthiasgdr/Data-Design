@@ -51,6 +51,7 @@
     color: white;
     font-size: 32px;
     text-align: center;
+    text-shadow: 3px 3px 0px black;
   }
   .arrow-container {
     position: absolute;
@@ -83,9 +84,11 @@
       justify-content: center;
       align-items: center;
       .arrow-body {
+        animation: grow 2s;
         width: 98%;
         height: 15px;
         background-color: white;
+        box-shadow: 2px 2px 0px black;
       }
       .arrow-right {
         position: absolute;
@@ -115,7 +118,11 @@
     position: absolute;
     bottom: 60px;
     left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transform: translateX(-50%);
+    text-shadow: 3px 3px 0px black;
     &.good {
       color: lightgreen;
       font-size: 40px;
@@ -123,6 +130,14 @@
     &.bad {
       color: lightcoral;
       font-size: 20px;
+    }
+    p {
+      margin: 0;
+    }
+    a {
+      font-size: 28px;
+      color: inherit;
+      margin: 0px;
     }
   }
   .modal-container {
@@ -184,5 +199,13 @@
   }
   100% {
     transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes grow {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 98%;
   }
 }

@@ -9,16 +9,6 @@
       "border": "#A68203"
     }
   },
-	"ripple": {
-    "title": "Ripple",
-    "sign": "XRP",
-    "description": "Lowest cost per transaction",
-	"large_desc": "XRP is currently the fourth largest currency in terms of market capitalisation. It is considered one of the alternatives to Bitcoin, with a quite different proposition in several respects. As we will see later, one of the main differences is that it is a fairly centralised crypto-currency in a truly decentralised context.  Ripple is an open source protocol designed to enable fast and cheap transactions. At the same time, Ripple is also a crypto-currency with the acronym XRP.It is interesting to understand why this crypto-currency has worked much better than others that have tried to solve similar problems. Let's find out together what Ripple is and how to buy XRP on Bitnovo.",
-    "colors": {
-      "background": "#E8883E",
-      "border": "#C03D07"
-    }
-  },
    "ethereum": {
     "title": "Ethereum",
     "sign": "ETH",
@@ -29,17 +19,7 @@
       "border": "#155049"
     }
   },
-  "litecoin": {
-    "title": "Litecoin",
-    "sign": "LTC",
-    "description": "The best cryptocurrency for transaction speed",
-	"large_desc": "Litecoin (LTC) is a crypto currency launched in 2011 by Charlie Lee, a former Google employee. It is an alternative currency (altcoin) based on the Bitcoin model. It was created in an attempt to address some of the problems with Bitcoin including processing time and transaction fees. As a result, Litecoin not only has extremely low transaction fees, but also allows payments to be made approximately 4 times faster. For comparison, the cost of sending any amount of Bitcoin costs about $5 compared to only $0.09 for Litecoin. It has huge advantages for small transactions as well as for paying for everyday consumer goods without high fees.",
-    "colors": {
-      "background": "#7A59E3",
-      "border": "#3D12C6"
-    }
-  },
-  "bitcoin": {
+  	"bitcoin": {
     "title": "Bitcoin",
     "sign": "BTC",
     "description": "The original cryptocurrency",
@@ -49,7 +29,7 @@
       "border": "#83120E"
     }
   },
-  "dash": {
+   	"dash": {
     "title": "Dash",
     "sign": "DASH",
     "description": "For a fast and a cheap global payments network",
@@ -59,8 +39,17 @@
       "border": "#0C4572"
     }
   },
-  
-  "dogecoin": {
+	"ripple": {
+    "title": "Ripple",
+    "sign": "XRP",
+    "description": "Lowest cost per transaction",
+	"large_desc": "XRP is currently the fourth largest currency in terms of market capitalisation. It is considered one of the alternatives to Bitcoin, with a quite different proposition in several respects. As we will see later, one of the main differences is that it is a fairly centralised crypto-currency in a truly decentralised context.  Ripple is an open source protocol designed to enable fast and cheap transactions. At the same time, Ripple is also a crypto-currency with the acronym XRP.It is interesting to understand why this crypto-currency has worked much better than others that have tried to solve similar problems. Let's find out together what Ripple is and how to buy XRP on Bitnovo.",
+    "colors": {
+      "background": "#E8883E",
+      "border": "#C03D07"
+    }
+  },
+  	"dogecoin": {
     "title": "DogeCoin",
     "sign": "DOGE",
     "description": "The cryptocurrency that started as a meme",
@@ -68,6 +57,16 @@
     "colors": {
       "background": "#34A0AE",
       "border": "#C8EDF2"
+    }
+  },
+  	"litecoin": {
+    "title": "Litecoin",
+    "sign": "LTC",
+    "description": "The best cryptocurrency for transaction speed",
+	"large_desc": "Litecoin (LTC) is a crypto currency launched in 2011 by Charlie Lee, a former Google employee. It is an alternative currency (altcoin) based on the Bitcoin model. It was created in an attempt to address some of the problems with Bitcoin including processing time and transaction fees. As a result, Litecoin not only has extremely low transaction fees, but also allows payments to be made approximately 4 times faster. For comparison, the cost of sending any amount of Bitcoin costs about $5 compared to only $0.09 for Litecoin. It has huge advantages for small transactions as well as for paying for everyday consumer goods without high fees.",
+    "colors": {
+      "background": "#7A59E3",
+      "border": "#3D12C6"
     }
   }
 }

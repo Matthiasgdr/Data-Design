@@ -59,6 +59,7 @@
   color: white;
   font-size: 32px;
   text-align: center;
+  text-shadow: 3px 3px 0px black;
 }
 
 .app .arrow-container {
@@ -96,9 +97,11 @@
 }
 
 .app .arrow-container .arrow-wrapper .arrow-body {
+  animation: grow 2s;
   width: 98%;
   height: 15px;
   background-color: white;
+  box-shadow: 2px 2px 0px black;
 }
 
 .app .arrow-container .arrow-wrapper .arrow-right {
@@ -129,7 +132,11 @@
   position: absolute;
   bottom: 60px;
   left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transform: translateX(-50%);
+  text-shadow: 3px 3px 0px black;
 }
 
 .app .well-sorted.good {
@@ -140,6 +147,16 @@
 .app .well-sorted.bad {
   color: lightcoral;
   font-size: 20px;
+}
+
+.app .well-sorted p {
+  margin: 0;
+}
+
+.app .well-sorted a {
+  font-size: 28px;
+  color: inherit;
+  margin: 0px;
 }
 
 .app .modal-container {
@@ -206,5 +223,14 @@
   }
   100% {
     transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes grow {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 98%;
   }
 }

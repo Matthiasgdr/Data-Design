@@ -40,9 +40,20 @@ function App() {
           Try to sort the crypto by the popularity they have today !
         </div>
         <div className={`well-sorted ${wellSorted ? "good" : "bad"}`}>
-          {wellSorted
-            ? "It's well sorted, good job !"
-            : "Not well sorted their"}
+          {wellSorted ? (
+            <>
+              <p>It's well sorted, good job !</p>
+              <a
+                target="_blank"
+                href="https://www.businessinsider.fr/us/what-is-cryptocurrency"
+                rel="noreferrer"
+              >
+                Read More about crypto
+              </a>
+            </>
+          ) : (
+            <p>Not well sorted their</p>
+          )}
         </div>
         {cryptoKeys.map((crypto) => (
           <CryptoSquare
