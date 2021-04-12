@@ -1,8 +1,19 @@
 {
+	"binance": {
+    "title": "Binance",
+    "sign": "BNB",
+    "description": "The rising star of cryptocurrencies",
+	"large_desc": "Since its inception in 2017, Binance has continued to innovate in order to maintain its position as the leading exchange in the crypto-currency world. Every day, more than $3 billion is exchanged, more than 15 million users and more than 500 pairs are traded. Initially launched on the Ethereum blockchain, the BNB was an ERC-20 token. The standard type used on the Ethereum blockchain network. ",
+    "colors": {
+      "background": "#FFDB5E",
+      "border": "#A68203"
+    }
+  },
 	"ripple": {
     "title": "Ripple",
     "sign": "XRP",
     "description": "Lowest cost per transaction",
+	"large_desc": "XRP is currently the fourth largest currency in terms of market capitalisation. It is considered one of the alternatives to Bitcoin, with a quite different proposition in several respects. As we will see later, one of the main differences is that it is a fairly centralised crypto-currency in a truly decentralised context.  Ripple is an open source protocol designed to enable fast and cheap transactions. At the same time, Ripple is also a crypto-currency with the acronym XRP.It is interesting to understand why this crypto-currency has worked much better than others that have tried to solve similar problems. Let's find out together what Ripple is and how to buy XRP on Bitnovo.",
     "colors": {
       "background": "#E8883E",
       "border": "#C03D07"
@@ -12,6 +23,7 @@
     "title": "Ethereum",
     "sign": "ETH",
     "description": "The cryptocurrency of the 'world computer'",
+	"large_desc": "Ethereum is a decentralised platform created in 2015 by a 19-year-old Canadian of Russian origin, Vitalik Buterin. Ethereum is considered today as the most promising blockchain after Bitcoin. As you know, the Bitcoin blockchain was designed for monetary applications, while the Ethereum blockchain is more about creating a new decentralised web. Ethereum works with a cryptocurrency, the Ether. The latter has a very specific function, the execution of smart contracts. One of the advantages of implementing smart contracts in a blockchain is the guarantee that the terms of the contract cannot be modified.",
     "colors": {
       "background": "#398075",
       "border": "#155049"
@@ -21,6 +33,7 @@
     "title": "Litecoin",
     "sign": "LTC",
     "description": "The best cryptocurrency for transaction speed",
+	"large_desc": "Litecoin (LTC) is a crypto currency launched in 2011 by Charlie Lee, a former Google employee. It is an alternative currency (altcoin) based on the Bitcoin model. It was created in an attempt to address some of the problems with Bitcoin including processing time and transaction fees. As a result, Litecoin not only has extremely low transaction fees, but also allows payments to be made approximately 4 times faster. For comparison, the cost of sending any amount of Bitcoin costs about $5 compared to only $0.09 for Litecoin. It has huge advantages for small transactions as well as for paying for everyday consumer goods without high fees.",
     "colors": {
       "background": "#7A59E3",
       "border": "#3D12C6"
@@ -30,15 +43,28 @@
     "title": "Bitcoin",
     "sign": "BTC",
     "description": "The original cryptocurrency",
+	"large_desc": "One of the fascinations with Bitcoin is its unknown origin. No one knows who created Bitcoin at this time. The pseudonym, Satoshi Nakamoto, refers to the person or group that created Bitcoin. Whoever that party is, they, or he, does not appear to have been involved with the Bitcoin protocol after mid-2010. In 2009, the first version of Bitcoin was launched and the first coins were mined. This version was very complete and even though Satoshi was working solo, he spent a lot of time on the development of the project. Satoshi Nakamoto remained active in modifying the Bitcoin software and regularly posted technical information on the BitcoinTalk forum until he ceased all contact with other Bitcoin developers in mid-2010. Since then, much of the original protocol has been revisited so that it can be more secure and efficient",
     "colors": {
       "background": "#E83D36",
       "border": "#83120E"
     }
   },
+  "dash": {
+    "title": "Dash",
+    "sign": "DASH",
+    "description": "For a fast and a cheap global payments network",
+	"large_desc": "The currency was launched in January 2014 as 'Xcoin' by Evan Duffield, as a fork of the Bitcoin protocol. It is an altcoin and in its early days it was subject to pump and dump speculation. It was rebranded as Darkcoin, which received press for being used in dark net markets. In March 2015, it rebranded again with the name Dash as a portmanteau of 'digital cash'. As of August 2016, Dash is no longer used in any major dark net markets worth noting. In early 2017 Duffield, who lived in the Phoenix area, and some other people working on Dash took space in a business incubator at Arizona State University. The Dash DAO later funded a blockchain research lab at ASU. As of April 2018, Dash's market capitalization was around $4.3 billion and it was one of the top 12 cryptocurrencies. As of February 2019, Dash was the most popular cryptocurrency in Venezuela according to Der Spiegel.",
+    "colors": {
+      "background": "#1373BF",
+      "border": "#0C4572"
+    }
+  },
+  
   "dogecoin": {
     "title": "DogeCoin",
     "sign": "DOGE",
     "description": "The cryptocurrency that started as a meme",
+	"large_desc": "Created in late 2013, The currency started as a joke, but it gained a following after that, and it participated in the crypto-currency bubble that contributed to a notable increase in the value of many currencies in late 2017. Users can buy and sell Dogecoin via crypto-currency exchanges, and they can choose to store it on an exchange or in a Dogecoin wallet. This crypto-currency presented itself as the fun version of Bitcoin with the Sheba Inno logo, the informal presentation of the crypto-currency matched the mood of the growing crypto-community, and due to its cryptographic technology and unlimited supply, it has become the fastest, most convenient and user-friendly version of Bitcoin.",
     "colors": {
       "background": "#34A0AE",
       "border": "#C8EDF2"

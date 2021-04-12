@@ -56,6 +56,7 @@ const CryptoSquare = ({ crypto, selectCrypto, setSquarePos }) => {
       style={{
         backgroundColor: crypto.colors.background,
         border: `5px solid ${crypto.colors.border}`,
+        // transform: `translate(${PosX}px, ${PosY}px)`,
         left: PosX,
         top: PosY,
         cursor: !isDragging ? "grab" : "grabbing",
