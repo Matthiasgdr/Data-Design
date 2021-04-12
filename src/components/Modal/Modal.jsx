@@ -8,7 +8,7 @@ import csvRipple from "../../data/ripple.csv";
 import csvDogecoin from "../../data/dogecoin.csv";
 import csvEthereum from "../../data/ethereum.csv";
 
-var CanvasJS = CanvasJSReact.CanvasJS;
+// var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 const Modal = ({ isOpen, onClose, crypto }) => {
