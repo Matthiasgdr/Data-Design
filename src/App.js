@@ -16,12 +16,12 @@ function App() {
 
   useEffect(() => {
     if (
-      squaresPos.Binance > squaresPos.Ripple &&
-      squaresPos.Ripple > squaresPos.Ethereum &&
-      squaresPos.Ethereum > squaresPos.Litecoin &&
-      squaresPos.Litecoin > squaresPos.Bitcoin &&
+      squaresPos.Binance > squaresPos.Ethereum &&
+      squaresPos.Ethereum > squaresPos.Bitcoin &&
       squaresPos.Bitcoin > squaresPos.Dash &&
-      squaresPos.Dash > squaresPos.DogeCoin
+      squaresPos.Dash > squaresPos.Ripple &&
+      squaresPos.Ripple > squaresPos.DogeCoin &&
+      squaresPos.DogeCoin > squaresPos.Litecoin
     ) {
       setWellSorted(true);
     } else {
@@ -37,7 +37,7 @@ function App() {
     <div className="app">
       <div className="container">
         <div className="app-title">
-          Try to sort the crypto by their today popularity !
+          Try to sort the crypto by the popularity they have today !
         </div>
         <div className={`well-sorted ${wellSorted ? "good" : "bad"}`}>
           {wellSorted
