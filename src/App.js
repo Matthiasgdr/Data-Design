@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import CryptoSquare from "./components/CryptoSquare";
 import Modal from "./components/Modal";
+import SortArrow from "./components/SortArrow";
 import cryptos from "./data/crypto.json";
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
   return (
     <div className="app">
       <div className="container">
+        <div className="app-title">
+          Try to sort the crypto by their today popularity !
+        </div>
         <div className={`well-sorted ${wellSorted ? "good" : "bad"}`}>
           {wellSorted
             ? "It's well sorted, good job !"
@@ -46,6 +50,7 @@ function App() {
             setSquarePos={setSquarePos}
           />
         ))}
+        <SortArrow></SortArrow>
       </div>
       <Modal
         isOpen={!!selectedCrypto}
