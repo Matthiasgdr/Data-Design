@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const CryptoSquare = ({ crypto, selectCrypto }) => {
+const CryptoSquare = ({ crypto, selectCrypto, setSquarePos }) => {
   const [initialPos, setInitialPos] = useState();
   const [PosX, setPosX] = useState(
     Math.floor(Math.random() * (window.innerWidth - 310))
@@ -35,6 +35,15 @@ const CryptoSquare = ({ crypto, selectCrypto }) => {
       selectCrypto(crypto);
     }
   };
+
+  useEffect(() => {
+    setSquarePos((old) => {
+      return {
+        ...old,
+        [crypto.title]: PosX,
+      };
+    });
+  }, [PosX]);
 
   return (
     <div

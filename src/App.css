@@ -50,6 +50,23 @@
   font-size: 24px;
 }
 
+.app .well-sorted {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.app .well-sorted.good {
+  color: lightgreen;
+  font-size: 40px;
+}
+
+.app .well-sorted.bad {
+  color: lightcoral;
+  font-size: 20px;
+}
+
 .app .modal-container {
   position: absolute;
   top: 0;
