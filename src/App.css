@@ -114,6 +114,7 @@
 
 .app .arrow-container .arrow-wrapper .arrow-left {
   position: absolute;
+  display: none;
   left: 0;
   top: 0;
   width: 0;
