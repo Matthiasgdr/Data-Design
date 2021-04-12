@@ -42,10 +42,10 @@ const Modal = ({ isOpen, onClose, crypto }) => {
 
   const options = {
     title: {
-      text: `${crypto.title}, his popularity against his price`,
+      text: `${crypto.title} popularity`,
     },
     axisY: {
-      title: "% of price and % of popularity",
+      title: "% of popularity",
     },
     data: [
       {
