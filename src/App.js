@@ -16,12 +16,12 @@ function App() {
 
   useEffect(() => {
     if (
-      squaresPos.Binance > squaresPos.Ethereum &&
-      squaresPos.Ethereum > squaresPos.Bitcoin &&
+      squaresPos.Binance > squaresPos.Ripple &&
+      squaresPos.Ripple > squaresPos.Ethereum &&
+      squaresPos.Ethereum > squaresPos.Litecoin &&
+      squaresPos.Litecoin > squaresPos.Bitcoin &&
       squaresPos.Bitcoin > squaresPos.Dash &&
-      squaresPos.Dash > squaresPos.Ripple &&
-      squaresPos.Ripple > squaresPos.DogeCoin &&
-      squaresPos.DogeCoin > squaresPos.Litecoin
+      squaresPos.Dash > squaresPos.DogeCoin
     ) {
       setWellSorted(true);
     } else {
